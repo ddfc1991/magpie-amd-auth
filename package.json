@@ -1,0 +1,12 @@
+{
+  "name": "magpie-amd-auth",
+  "version": "0.1.0",
+  "description": "AMD Radeon provider plugin for Magpie: 12 models via an AMD rc- API key",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": { ".": "./index.mjs" },
+  "files": ["index.mjs", "README.md"],
+  "keywords": ["opencode", "opencode-plugin", "magpie", "amd", "radeon", "provider"],
+  "license": "MIT",
+  "magpie": { "maxConcurrency": 2, "icon": "https://developer.amd.com.cn/favicon.ico" }
+}
